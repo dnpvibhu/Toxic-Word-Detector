@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.wipro.ToxicWordDetector.controller.Home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Toxic Word Detector">
+		<content>
+			<VBox class="bodyBackgroundImage" justifyContent="Center" alignItems="Center"  fitContainer="true">
+				
+					<Label class="myLabelCSS" text="Welcome to ToCofier"/>
+					<Button width="12rem" type="Emphasized" text="Try Me" press="onLoginPress"/>
+				
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>

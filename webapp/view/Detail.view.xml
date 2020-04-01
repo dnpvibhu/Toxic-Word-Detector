@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.wipro.ToxicWordDetector.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Toxic Word Detector">
+		<content>
+			<VBox class="bodyBackgroundImage" justifyContent="Center" alignItems="Center" fitContainer="true">
+				<VBox width="25rem" height="30rem" justifyContent="Center" alignItems="Center">
+					<Label class="mySecondLabelCSS" text="Toxicity Predictor"/>
+					<Input id="userInput" width="15rem" placeholder="What do want to check??"/>
+					<Button width="15rem" type="Emphasized" text="Try Me" press="onTryMe"/>
+				</VBox>
+				<VBox width="25rem" height="30rem">
+					<HBox>
+						<Label class="myThirdLabelCSS" text="Comment Submitted: {/submittedComment}"/>
+					</HBox>
+					<Label class="myBoldLabelCSS" text="Resuts:"/>
+					<Label class="myThirdLabelCSS" text=" Toxic: {/toxicPred}"/>
+					<Label class="myThirdLabelCSS" text=" Non Toxic: {/nonToxicPred}"/>
+				</VBox>
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>
